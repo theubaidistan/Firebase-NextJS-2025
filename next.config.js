@@ -30,7 +30,8 @@ const nextConfig = {
       process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,
     NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET:
       process.env.NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET,
-  },
+  }, // Fix dynamic routes with AuthCheck
+  generateStaticParams: false, // or handle in getStaticPaths
 };
 
 module.exports = nextConfig;

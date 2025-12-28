@@ -6,7 +6,7 @@
 const nextConfig = {
   reactStrictMode: false,
   // trailingSlash: true, // Often helps with export mismatches
-  // // If using images
+  // If using images
   // images: {
   //   unoptimized: true, // Required for static export
   // },

@@ -1,4 +1,4 @@
-# Project Name
+# Dev Community Clone App
 
 ![Featured Image](https://fireship.io/courses/react-next-firebase/img/featured.png)
 
@@ -11,6 +11,8 @@
 ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
 
 ## Features
+
+![Firebase](public/firebase.png)
 
 ### Firebase Integration
 
@@ -37,6 +39,10 @@
 - npm or yarn
 - Firebase account
 - Cloudinary account
+
+## FlowChart
+
+![FlowChart](public/next-ssr-flowchart.png)
 
 ### Installation
 

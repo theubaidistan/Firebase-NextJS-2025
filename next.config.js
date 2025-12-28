@@ -32,6 +32,9 @@ const nextConfig = {
       process.env.NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET,
   }, // Fix dynamic routes with AuthCheck
   generateStaticParams: false, // or handle in getStaticPaths
+  images: {
+    domains: ["res.cloudinary.com"], // allow Cloudinary images
+  },
 };
 
 module.exports = nextConfig;

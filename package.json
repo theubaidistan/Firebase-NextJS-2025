@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "node --openssl-legacy-provider ./node_modules/next/dist/bin/next dev",
     "build": "node --openssl-legacy-provider ./node_modules/next/dist/bin/next build",
-    "start": "node --openssl-legacy-provider ./node_modules/next/dist/bin/next start"
+    "start": "node --openssl-legacy-provider ./node_modules/next/dist/bin/next start",
+    "deploy": "npm run build  && firebase deploy"
   },
   "dependencies": {
     "firebase": "^8.2.1",

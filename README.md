@@ -13,6 +13,7 @@
 ## Features
 
 ### Firebase Integration
+<<<<<<< HEAD
 
 - **Authentication**
   - Google Sign-In
@@ -31,6 +32,24 @@
 
 ## Getting Started
 
+=======
+- **Authentication**
+  - Google Sign-In
+  - Anonymous Authentication
+- **Firestore Database**
+  - Real-time data synchronization
+  - Secure database rules
+- **Security Rules**
+  - Custom Firebase security rules implemented
+
+### Media Management
+- **Cloudinary Integration**
+  - Image upload and optimization
+  - Cloud-based media storage
+
+## Getting Started
+
+>>>>>>> 56686bcbb7b0975125a2e5ebb1b9369adada998c
 ### Prerequisites
 
 - Node.js (v14 or higher)
@@ -41,14 +60,20 @@
 ### Installation
 
 1. Clone the repository
+<<<<<<< HEAD
 
+=======
+>>>>>>> 56686bcbb7b0975125a2e5ebb1b9369adada998c
 ```bash
 git clone <repository-url>
 cd <project-directory>
 ```
 
 2. Install dependencies
+<<<<<<< HEAD
 
+=======
+>>>>>>> 56686bcbb7b0975125a2e5ebb1b9369adada998c
 ```bash
 npm install
 # or
@@ -73,7 +98,10 @@ CLOUDINARY_API_SECRET=your_api_secret
 ```
 
 4. Run the development server
+<<<<<<< HEAD
 
+=======
+>>>>>>> 56686bcbb7b0975125a2e5ebb1b9369adada998c
 ```bash
 npm run dev
 # or
